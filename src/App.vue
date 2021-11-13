@@ -136,7 +136,11 @@ export default {
         if(this.cura && this.porcentajeCura < 100) this.calcularCura();
         if(this.porcentajeCura == 100) this.curarPoblacion();
         
-        if((this.poblacionSana == 0 && this.poblacionEnferma == 0)) clearInterval(interval);
+        if((this.poblacionSana == 0 && this.poblacionEnferma == 0)
+        || (this.poblacionEnferma == 0 && this.porcentajeCura == 100)) {
+
+          clearInterval(interval);
+        }
 
       }, 1000);
 
@@ -158,11 +162,11 @@ export default {
 
       this.paises.forEach((element, index) => {
         
-        if(element.healthy_population >= Math.round(this.tasas[index].tasaContagio) && element.infected_population > 0) {
+        if(element.healthy_population >= Math.round(this.tasas[index].tasaContagio) && element.infected_population > 0 && this.porcentajeCura < 100) {
           element.infected_population += Math.round(this.tasas[index].tasaContagio);
           element.healthy_population = element.total_population - element.infected_population;
           if(element.healthy_population < 0) element.healthy_population = 0;
-        } else if(element.infected_population > 0){
+        } else if(element.infected_population > 0 && this.porcentajeCura < 100){
           element.healthy_population = 0;
           element.infected_population = element.total_population;
         }

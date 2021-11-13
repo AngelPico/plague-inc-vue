@@ -39,7 +39,7 @@ export default {
         datos: {
             deep: true,
             handler: function (oldValue, newValue) {
-                this.sanos = newValue.filter(el => el.total_population == el.healthy_population);
+                this.sanos = newValue.filter(el => el.total_population == (el.healthy_population + el.dead_population) && el.infected_population == 0);
                 this.infectados = newValue.filter(el => el.infected_population > 0);
                 this.destruidos = newValue.filter(el => el.total_population == el.dead_population);
             }
