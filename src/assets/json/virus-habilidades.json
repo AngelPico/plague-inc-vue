@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Resistencia al frio",
+        "level": 1,
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 8,
+        "weather": "Frio",
+        "vaccine": 0
+    },
+    {
+        "name": "Resistencia al frio",
+        "level": 2,
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 12,
+        "weather": "Frio",
+        "vaccine": 0
+    },
+    {
+        "name": "Resistencia al calor",
+        "level": 1,
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 8,
+        "weather": "Calido",
+        "vaccine": 0
+    },
+    {
+        "name": "Resistencia al calor",
+        "level": 2,
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 12,
+        "weather": "Calido",
+        "vaccine": 0
+    },    
+    {
+        "name": "Resistencia a los farmacos",
+        "level": 1,
+        "developed": true,
+        "select": false,
+        "disabled": false,
+        "cost": 8,
+        "weather": null,
+        "vaccine": 0
+    },    
+    {
+        "name": "Resistencia a los farmacos",
+        "level": 2,
+        "developed": true,
+        "select": false,
+        "disabled": false,
+        "cost": 12,
+        "weather": null,
+        "vaccine": 0
+    },    
+    {
+        "name": "Endurecimiento genetico",
+        "level": 1,
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 10,
+        "weather": null,
+        "vaccine": 2
+    },    
+    {
+        "name": "Endurecimiento genetico",
+        "level": 2,
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 12,
+        "weather": null,
+        "vaccine": 4
+    },    
+    {
+        "name": "Endurecimiento genetico",
+        "level": 3,
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 14,
+        "weather": null,
+        "vaccine": 6
+    },    
+    {
+        "name": "Endurecimiento genetico",
+        "level": 4,
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 16,
+        "weather": null,
+        "vaccine": 10
+    }
+]

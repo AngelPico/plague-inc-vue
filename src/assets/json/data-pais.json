@@ -1,0 +1,482 @@
+[
+    {
+        "country": "Afghanistan",
+        "total_population": 37172386,
+        "healthy_population": 37172386,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 12.6,
+        "transportation_means": {
+            "maritime": false,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Argentina",
+        "total_population": 44494502,
+        "healthy_population": 44494502,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 14.8,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Australia",
+        "total_population": 24982688,
+        "healthy_population": 24982688,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 21.65,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Austria",
+        "total_population": 8840521,
+        "healthy_population": 8840521,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 6.35,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Belgium",
+        "total_population": 11433256,
+        "healthy_population": 11433256,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 9.55,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Brazil",
+        "total_population": 209469333,
+        "healthy_population": 209469333,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 24.95,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Canada",
+        "total_population": 37057765,
+        "healthy_population": 37057765,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": -5.35,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Chile",
+        "total_population": 18729160,
+        "healthy_population": 18729160,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 8.45,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "China",
+        "total_population": 1392730000,
+        "healthy_population": 1392730000,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 6.95,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Colombia",
+        "total_population": 49648685,
+        "healthy_population": 49648685,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 24.5,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Costa Rica",
+        "total_population": 4999441,
+        "healthy_population": 4999441,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 24.8,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Cuba",
+        "total_population": 11338138,
+        "healthy_population": 11338138,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 25.2,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Dominican Republic",
+        "total_population": 10627165,
+        "healthy_population": 10627165,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 24.55,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Egypt",
+        "total_population": 98423595,
+        "healthy_population": 98423595,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 22.1,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Finland",
+        "total_population": 5515525,
+        "healthy_population": 5515525,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 1.7,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "France",
+        "total_population": 66977107,
+        "healthy_population": 66977107,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 10.7,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Germany",
+        "total_population": 82905782,
+        "healthy_population": 82905782,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 8.5,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "India",
+        "total_population": 1352617328,
+        "healthy_population": 1352617328,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 23.65,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Indonesia",
+        "total_population": 267663435,
+        "healthy_population": 267663435,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 25.85,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Israel",
+        "total_population": 8882800,
+        "healthy_population": 8882800,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 19.2,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Italy",
+        "total_population": 60421760,
+        "healthy_population": 60421760,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 13.45,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Japan",
+        "total_population": 126529100,
+        "healthy_population": 126529100,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 11.15,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Luxembourg",
+        "total_population": 607950,
+        "healthy_population": 607950,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 8.65,
+        "transportation_means": {
+            "maritime": false,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Madagascar",
+        "total_population": 26262368,
+        "healthy_population": 26262368,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 22.65,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Mexico",
+        "total_population": 126190788,
+        "healthy_population": 126190788,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 21,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Portugal",
+        "total_population": 10283822,
+        "healthy_population": 10283822,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 15.15,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Qatar",
+        "total_population": 2781677,
+        "healthy_population": 2781677,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 27.15,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "South Africa",
+        "total_population": 57779622,
+        "healthy_population": 57779622,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 17.75,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": false,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "Spain",
+        "total_population": 46796540,
+        "healthy_population": 46796540,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 13.3,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    },
+    {
+        "country": "United States",
+        "total_population": 326687501,
+        "healthy_population": 326687501,
+        "infected_population": 0,
+        "dead_population": 0,
+        "temperature": 8.55,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": true,
+            "terrestrial": true
+        },
+        "developed": true,
+        "support": 0,
+        "bubble": false
+    }
+]

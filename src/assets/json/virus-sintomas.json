@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Estornudos",
+        "level": 1,
+        "select": false,
+        "disabled": false,
+        "cost": 3,
+        "infectivity": 3,
+        "severity": 1,
+        "lethality": 0
+    },
+    {
+        "name": "Transpiracion",
+        "level": 1,
+        "select": false,
+        "disabled": false,
+        "cost": 2,
+        "infectivity": 1,
+        "severity": 1,
+        "lethality": 0
+    },
+    {
+        "name": "Vomito",
+        "level": 1,
+        "select": false,
+        "disabled": false,
+        "cost": 6,
+        "infectivity": 1,
+        "severity": 1,
+        "lethality": 1
+    },
+    {
+        "name": "Fiebre",
+        "level": 1,
+        "select": false,
+        "disabled": false,
+        "cost": 4,
+        "infectivity": 0,
+        "severity": 2,
+        "lethality": 2
+    },
+    {
+        "name": "Tos",
+        "level": 1,
+        "select": false,
+        "disabled": false,
+        "cost": 3,
+        "infectivity": 2,
+        "severity": 1,
+        "lethality": 1
+    },
+    {
+        "name": "Fatiga",
+        "level": 2,
+        "select": false,
+        "disabled": false,
+        "cost": 3,
+        "infectivity": 0,
+        "severity": 3,
+        "lethality": 1
+    },
+    {
+        "name": "Diarrea",
+        "level": 2,
+        "select": false,
+        "disabled": false,
+        "cost": 8,
+        "infectivity": 2,
+        "severity": 3,
+        "lethality": 2
+    },
+    {
+        "name": "Nauseas",
+        "level": 2,
+        "select": false,
+        "disabled": false,
+        "cost": 3,
+        "infectivity": 3,
+        "severity": 4,
+        "lethality": 2
+    },
+    {
+        "name": "Edema Pulmonar",
+        "level": 2,
+        "select": false,
+        "disabled": false,
+        "cost": 3,
+        "infectivity": 2,
+        "severity": 4,
+        "lethality": 4
+    },
+    {
+        "name": "Demencia",
+        "level": 2,
+        "select": false,
+        "disabled": false,
+        "cost": 7,
+        "infectivity": 2,
+        "severity": 3,
+        "lethality": 3
+    },
+    {
+        "name": "Hemorragia",
+        "level": 3,
+        "select": false,
+        "disabled": false,
+        "cost": 22,
+        "infectivity": 4,
+        "severity": 8,
+        "lethality": 10
+    },
+    {
+        "name": "Depresion",
+        "level": 3,
+        "select": false,
+        "disabled": false,
+        "cost": 5,
+        "infectivity": 0,
+        "severity": 5,
+        "lethality": 5
+    },
+    {
+        "name": "Falla de riñon",
+        "level": 3,
+        "select": false,
+        "disabled": false,
+        "cost": 20,
+        "infectivity": 3,
+        "severity": 7,
+        "lethality": 10
+    },
+    {
+        "name": "Hipersensibilidad",
+        "level": 3,
+        "select": false,
+        "disabled": false,
+        "cost": 7,
+        "infectivity": 5,
+        "severity": 5,
+        "lethality": 1
+    },
+    {
+        "name": "Quistes",
+        "level": 3,
+        "select": false,
+        "disabled": false,
+        "cost": 12,
+        "infectivity": 1,
+        "severity": 5,
+        "lethality": 5
+    },
+    {
+        "name": "Insuficiencia Hepática",
+        "level": 4,
+        "select": false,
+        "disabled": false,
+        "cost": 12,
+        "infectivity": 1,
+        "severity": 5,
+        "lethality": 5
+    },
+    {
+        "name": "Ataque al Corazón",
+        "level": 4,
+        "select": false,
+        "disabled": false,
+        "cost": 24,
+        "infectivity": 0,
+        "severity": 8,
+        "lethality": 13
+    },
+    {
+        "name": "Ceguera",
+        "level": 4,
+        "select": false,
+        "disabled": false,
+        "cost": 4,
+        "infectivity": 0,
+        "severity": 3,
+        "lethality": 3
+    },
+    {
+        "name": "Hipotonia",
+        "level": 4,
+        "select": false,
+        "disabled": false,
+        "cost": 4,
+        "infectivity": 0,
+        "severity": 4,
+        "lethality": 5
+    },
+    {
+        "name": "Encefalitis",
+        "level": 4,
+        "select": false,
+        "disabled": false,
+        "cost": 21,
+        "infectivity": 0,
+        "severity": 6,
+        "lethality": 12
+    }
+]

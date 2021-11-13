@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Transmision Aire",
+        "level": 1,
+        "transportation_means": {
+            "maritime": false,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 8,
+        "weather": null
+    },
+    {
+        "name": "Transmision Agua",
+        "level": 1,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": false,
+            "terrestrial": false
+        },
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 8,
+        "weather": null
+    },
+    {
+        "name": "Transmision Vacunas",
+        "level": 1,
+        "transportation_means": {
+            "maritime": false,
+            "aerial": false,
+            "terrestrial": false
+        },
+        "developed": false,
+        "select": false,
+        "disabled": false,
+        "cost": 8,
+        "weather": null
+    },
+    {
+        "name": "Transmision Insectos",
+        "level": 1,
+        "transportation_means": {
+            "maritime": false,
+            "aerial": false,
+            "terrestrial": false
+        },
+        "developed": null,
+        "select": false,
+        "disabled": false,
+        "cost": 8,
+        "weather": "Calido"
+    },
+    {
+        "name": "Transmision Aire",
+        "level": 2,
+        "transportation_means": {
+            "maritime": false,
+            "aerial": true,
+            "terrestrial": false
+        },
+        "developed": null,
+        "select": false,
+        "disabled": true,
+        "cost": 12,
+        "weather": null
+    },
+    {
+        "name": "Transmision Agua",
+        "level": 2,
+        "transportation_means": {
+            "maritime": true,
+            "aerial": false,
+            "terrestrial": false
+        },
+        "developed": null,
+        "select": false,
+        "disabled": true,
+        "cost": 12,
+        "weather": null
+    },
+    {
+        "name": "Transmision Vacunas",
+        "level": 2,
+        "transportation_means": {
+            "maritime": false,
+            "aerial": false,
+            "terrestrial": false
+        },
+        "developed": false,
+        "select": false,
+        "disabled": true,
+        "cost": 12,
+        "weather": null
+    },
+    {
+        "name": "Transmision Insectos",
+        "level": 2,
+        "transportation_means": {
+            "maritime": false,
+            "aerial": false,
+            "terrestrial": false
+        },
+        "developed": null,
+        "select": false,
+        "disabled": true,
+        "cost": 8,
+        "weather": "Calido"
+    }
+
+]
