@@ -1,5 +1,14 @@
 <template>
   <div id="app">
+    <div class="info">
+      <span>Simulacion Plague INC</span>
+      <span>Virus: Szokimco</span>
+    </div>
+    <div class="integrantes">
+      <span>Juan Gomez</span>
+      <span>Kimberly Morales</span>
+      <span>Angel Pico</span>
+    </div>
     <span class="puntos">Puntos ADN: {{puntos}}</span>
     <span class="fecha">{{fecha.toDateString()}}</span>
     <md-tabs md-alignment="centered">
@@ -129,7 +138,7 @@ export default {
         
         if((this.poblacionSana == 0 && this.poblacionEnferma == 0)) clearInterval(interval);
 
-      }, 2500);
+      }, 1000);
 
     },
     calcularTasa() {
@@ -152,6 +161,7 @@ export default {
         if(element.healthy_population >= Math.round(this.tasas[index].tasaContagio) && element.infected_population > 0) {
           element.infected_population += Math.round(this.tasas[index].tasaContagio);
           element.healthy_population = element.total_population - element.infected_population;
+          if(element.healthy_population < 0) element.healthy_population = 0;
         } else if(element.infected_population > 0){
           element.healthy_population = 0;
           element.infected_population = element.total_population;
@@ -178,6 +188,10 @@ export default {
             element.transportation_means[aux] = null
           }
 
+        }
+
+        if(element.dead_population > element.total_population * 0.35) {
+          this.tasas[index].tasaMuerte /= this.tasas[index].aumentoMuerte;
         }
       })
 
@@ -305,7 +319,7 @@ export default {
       
       if(support <= 5) {
 
-        let desarrollados = this.paises.filter(el => el.developed == true && el.support == 0);
+        let desarrollados = this.paises.filter(el => el.developed == true && el.support == 0 && el.dead_population != el.total_population);
         
         if(desarrollados.length > 0) {
 
@@ -446,12 +460,23 @@ export default {
   margin: 0;
 }
 
+.info {
+  background: #FFFFFF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .md-content {
   height: auto !important;
 }
 
 .md-tab {
-  height: 92vh;
+  height: 83vh;
   overflow: auto;
 }
 
@@ -459,7 +484,7 @@ export default {
 .puntos {
   position: absolute;
   right: 50px;
-  top: 20px;
+  top: 75px;
   z-index: 1;
   font-size: 20px;
   font-weight: 500;
@@ -468,10 +493,20 @@ export default {
 .fecha {
   position: absolute;
   left: 50px;
-  top: 20px;
+  top: 75px;
   z-index: 1;
   font-size: 20px;
   font-weight: 500;
+}
+
+.integrantes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  z-index: 2;
 }
 
 </style>

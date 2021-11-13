@@ -2,19 +2,31 @@
     <div class="columnasAtributos">
         <div class="columna">
             <span>Leves</span>
-            <md-checkbox :key="index" v-for="(dato, index) in nivel1" :value="!dato.select" :disabled="dato.cost > puntos" @change="changeCheckBox(index, 1)">{{dato.name}}</md-checkbox>
+            <md-checkbox :key="index" v-for="(dato, index) in nivel1" :value="!dato.select" :disabled="dato.cost > puntos || dato.select" @change="changeCheckBox(index, 1)">
+                {{dato.name}}
+                <md-tooltip md-direction="right">Costo: {{dato.cost}}</md-tooltip>
+            </md-checkbox>
         </div>
         <div class="columna">
             <span>Intermedios</span>
-            <md-checkbox :key="index" v-for="(dato, index) in nivel2" :value="!dato.select" :disabled="dato.cost > puntos" @change="changeCheckBox(index, 2)"> {{dato.name}}</md-checkbox>
+            <md-checkbox :key="index" v-for="(dato, index) in nivel2" :value="!dato.select" :disabled="dato.cost > puntos || dato.select" @change="changeCheckBox(index, 2)">
+                {{dato.name}}
+                <md-tooltip md-direction="right">Costo: {{dato.cost}}</md-tooltip>
+            </md-checkbox>
         </div>
         <div class="columna">
             <span>Avanzados</span>
-            <md-checkbox :key="index" v-for="(dato, index) in nivel3" :value="!dato.select" :disabled="dato.cost > puntos" @change="changeCheckBox(index, 3)">{{dato.name}}</md-checkbox>
+            <md-checkbox :key="index" v-for="(dato, index) in nivel3" :value="!dato.select" :disabled="dato.cost > puntos || dato.select" @change="changeCheckBox(index, 3)">
+                {{dato.name}}
+                <md-tooltip md-direction="right">Costo: {{dato.cost}}</md-tooltip>
+            </md-checkbox>
         </div>
         <div class="columna">
             <span>Criticos</span>
-            <md-checkbox :key="index" v-for="(dato, index) in nivel4" :value="!dato.select" :disabled="dato.cost > puntos" @change="changeCheckBox(index, 4)"> {{dato.name}}</md-checkbox>
+            <md-checkbox :key="index" v-for="(dato, index) in nivel4" :value="!dato.select" :disabled="dato.cost > puntos || dato.select" @change="changeCheckBox(index, 4)">
+                {{dato.name}}
+                <md-tooltip md-direction="right">Costo: {{dato.cost}}</md-tooltip>
+            </md-checkbox>
         </div>
 
     </div>

@@ -2,11 +2,17 @@
     <div class="columnasAtributos">
         <div class="columna">
             <span>Nivel 1</span>
-            <md-checkbox :key="index" v-for="(dato, index) in nivel1" :value="!dato.select" @change="changeCheckBox(index, 1)" :disabled="dato.cost > puntos">{{dato.name}}</md-checkbox>
+            <md-checkbox :key="index" v-for="(dato, index) in nivel1" :value="!dato.select" @change="changeCheckBox(index, 1)" :disabled="dato.cost > puntos || dato.select">
+                {{dato.name}}
+                <md-tooltip md-direction="right">Costo: {{dato.cost}}</md-tooltip>
+            </md-checkbox>
         </div>
         <div class="columna">
             <span>Nivel 2</span>
-            <md-checkbox :key="index" v-for="(dato, index) in nivel2" :value="!dato.select" :disabled="!nivel1[index].select || dato.cost > puntos" @change="changeCheckBox(index, 2)"> {{dato.name}}</md-checkbox>
+            <md-checkbox :key="index" v-for="(dato, index) in nivel2" :value="!dato.select" :disabled="!nivel1[index].select || dato.cost > puntos || dato.select" @change="changeCheckBox(index, 2)">
+                {{dato.name}}
+                <md-tooltip md-direction="right">Costo: {{dato.cost}}</md-tooltip>
+            </md-checkbox>
         </div>
 
     </div>
